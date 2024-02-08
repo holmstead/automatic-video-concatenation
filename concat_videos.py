@@ -24,7 +24,7 @@ input_str = " ".join(['-i ' + v for v in video_list])
 print('\n', input_str)
 
 # create the output file name with an absolute path
-output_file = os.path.abspath("pigeons_cove.mp4")
+output_file = os.path.abspath("output.mp4")
 #print('\nOutput file: ', output_file)
 
 # create the ffmpeg command
